@@ -21,6 +21,5 @@ Example:
 JSON_Convertor.py C:\Users\your-name\Documents\Messenger Archive\facebook-yourname\messages\inbox\chatname C:\Users\your-name\Desktop
 
 ************************************
-Created by Jack McKechnie - May 2020 \n
-Thanks for using!
+Created by Jack McKechnie - May 2020 - Thanks for using!
 ************************************

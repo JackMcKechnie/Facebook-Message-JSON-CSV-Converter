@@ -1,6 +1,6 @@
 # Facebook-Message-JSON-CSV-Convertor
 
-This is a tool to convert the JSON data obtained by downloading message data from Facebook.
+This is a tool to convert the JSON data obtained by downloading message data from Facebook. Saves the sender, timestamp and message content.
 
 ------------------------------
 How to download Facebook data:

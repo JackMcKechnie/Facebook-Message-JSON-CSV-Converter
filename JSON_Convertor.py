@@ -37,5 +37,8 @@ def main(source, destination, num_files):
         infile = "message_" + str(i+1) + ".json"
         output_file(source, destination, infile)
 
+
 main(sys.argv[1], sys.argv[2], int(sys.argv[3]))
+print()
+print("Successfully converted " + sys.argv[3] + " files from JSON to CSV")
 

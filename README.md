@@ -14,7 +14,7 @@ How to download Facebook data:
 How to use the Facebook Message JSON to CSV convertor
 -----------------------------------------------------
 
-The convertor takes 3 command line arguments, these are: the folder in which the JSON files you wish to convert are, the destination you want the csv to be saved in and the number of JSON files to convert (Facebook splits large conversations into individual files of 10k messages). 
+The convertor takes 3 command line arguments, these are: the folder in which the JSON files you wish to convert are, the destination you want the CSV to be saved in and the number of JSON files to convert (Facebook splits large conversations into individual files of 10k messages). 
 
 Example:
 

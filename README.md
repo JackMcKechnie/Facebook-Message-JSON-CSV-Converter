@@ -10,15 +10,18 @@ How to download Facebook data:
 2. Select the information that you wish to download and select JSON format 
 3. Facebook will process your data and after some time allow you to download it 
 
------------------------------------------------------
-How to use the Facebook Message JSON to CSV convertor
------------------------------------------------------
+----------
+Convertion
+----------
+The tool converts the JSON files given by Facebook into one CSV file in the form:
 
-The convertor takes 3 command line arguments, these are: the folder in which the JSON files you wish to convert are, the destination you want the CSV to be saved in and the number of JSON files to convert (Facebook splits large conversations into individual files of 10k messages). 
 
-Example:
+| Name of sender | MS Timestamp | Message contents |
+|----------------|:------------:|-----------------:|
+| Person 1       |  12345678912 | Message 1        |
+| Person 2       |  12345676745 | Message 2        |
+| Person 3       |  32432424324 | Message 3        |
 
-JSON_Convertor.py C:\Users\your-name\Documents\Messenger Archive\facebook-yourname\messages\inbox\chatname C:\Users\your-name\Desktop
 
 ************************************
 Created by Jack McKechnie - May 2020 - Thanks for using!

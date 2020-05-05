@@ -10,6 +10,15 @@ from PyQt5.QtCore import pyqtSlot
 source_file = ""
 destination_file = ""
 
+#-------- Code for packaging as exe --------
+def resource_path(relative_path):
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # -------- Converter Code --------
 def output_file(source, destination, filename):
@@ -156,7 +165,7 @@ class App(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('JSON_logo.gif'))
+    app.setWindowIcon(QIcon(resource_path('JSON_logo.gif')))
     ex = App()
     sys.exit(app.exec_())
 

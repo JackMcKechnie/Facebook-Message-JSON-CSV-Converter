@@ -2,6 +2,8 @@
 
 This is a tool to convert the JSON data obtained by downloading message data from Facebook. Saves the sender, timestamp and message content.
 
+An .exe file containing the program is avaliable here: https://www.filehosting.org/file/details/866582/JSON_Convertor.exe
+
 ------------------------------
 How to download Facebook data:
 ------------------------------
